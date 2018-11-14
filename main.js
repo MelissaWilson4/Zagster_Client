@@ -1,5 +1,5 @@
 const BASE_URL = "https://zagster-service.herouapp.com"
-$(updateView)
+    $(updateView)
 
 function updateView() {
     $.getJSON(BASE_URL + "/rides/count" , updateRideCount)
